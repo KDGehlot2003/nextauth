@@ -41,7 +41,7 @@ const LoginPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1>{loading ? "Processing" : "Signup"}</h1>
+      <h1>{loading ? "Processing" : "Login"}</h1>
       <hr/>
       <label htmlFor="email">email</label>
         <input 
@@ -67,7 +67,7 @@ const LoginPage = () => {
         >
         {buttonDisabled ? "No Login" : "Login"}
         </button>
-        <Link href="/login">Visit Signup page</Link>
+        <Link href="/signup">Visit Signup page</Link>
     </div>
   )
 }
